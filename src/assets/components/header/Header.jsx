@@ -2,7 +2,8 @@ import React from 'react'
 import './header.css'
 import RES from './RES'
 import HeaderSocial from './HeaderSocial'
-import ME from '../../assets/me.png'
+import ME from '../../me.png'
+
 
 const Header = () => {
   return (

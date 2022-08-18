@@ -1,10 +1,28 @@
 import React from 'react'
 import './footer.css'
+import { FaFacebookF } from "react-icons/fa";
+import { FiInstagram } from "react-icons/fi";
+import { IoLogoTwitter } from "react-icons/io";
 const Footer = () => {
   return (
-    <section id='footer'>
-      <h5>Footer</h5>
-    </section>
+    <footer id='footer'>
+      <a href="#" className='footer_logo'>EGATOR</a>
+    <ul className="allLinks">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact ">Contact </a></li>
+    </ul>
+    <div className="footer_socials">
+      <a href="https://facebook.com" target="_blank"><FaFacebookF /></a>
+      <a href="https://instagram.com" target="_blank"><FiInstagram /></a>
+      <a href="https://twitter.com" target="_blank"><IoLogoTwitter /></a>
+    </div>
+    <div className="footer_copyright">copyright</div>
+    </footer>
   )
 }
 

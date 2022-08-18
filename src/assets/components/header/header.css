@@ -57,7 +57,7 @@ header{
 }
 
 
-/* ########################## Media Query Small Device ######################### */
+/* ########################## Media Query medium Device ######################### */
 @media screen and (max-width: 1024px) {
 header{
     height: 80vh;
