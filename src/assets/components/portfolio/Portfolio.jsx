@@ -26,50 +26,50 @@ const Portfolio = () => {
           <div className="portfolio_item_image">
             <img src={IMG2} alt="img 1" />
           </div>
-          <h3>This is Portfolio item title</h3>
+          <h3>House Sell Page</h3>
           <div className="portfolio_item_link">
-            <a href="https://github.com/AKASHPRADUM" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com/AKASHPRADUM" className='btn btn-primary' target='_blank'>live Demo</a>
+            <a href="https://github.com/AKASHPRADUM/No.1-pratice-House-Sell-Page.git" className='btn' target='_blank'>Github</a>
+            <a href="https://akashpradum.github.io/No.1-pratice-House-Sell-Page/" className='btn btn-primary' target='_blank'>live Demo</a>
           </div>
         </article>
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
             <img src={IMG3} alt="img 1" />
           </div>
-          <h3>This is Portfolio item title</h3>
+          <h3>Analog and Digital Clock</h3>
           <div className="portfolio_item_link">
-            <a href="https://github.com/AKASHPRADUM" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com/AKASHPRADUM" className='btn btn-primary' target='_blank'>live Demo</a>
+            <a href="https://github.com/AKASHPRADUM/Analog-and-Digital-Clock.git" className='btn' target='_blank'>Github</a>
+            <a href="https://akashpradum.github.io/Analog-and-Digital-Clock/ " className='btn btn-primary' target='_blank'>live Demo</a>
           </div>
         </article>
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
             <img src={IMG4} alt="img 1" />
           </div>
-          <h3>This is Portfolio item title</h3>
+          <h3>Drum Kit</h3>
           <div className="portfolio_item_link">
-            <a href="https://github.com/AKASHPRADUM" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com/AKASHPRADUM" className='btn btn-primary' target='_blank'>live Demo</a>
+            <a href="https://github.com/AKASHPRADUM/Drum-Kit.git" className='btn' target='_blank'>Github</a>
+            <a href="https://akashpradum.github.io/Drum-Kit/" className='btn btn-primary' target='_blank'>live Demo</a>
           </div>
         </article>
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
             <img src={IMG5} alt="img 1" />
           </div>
-          <h3>This is Portfolio item title</h3>
+          <h3>Servay Form</h3>
           <div className="portfolio_item_link">
-            <a href="https://github.com/AKASHPRADUM" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com/AKASHPRADUM" className='btn btn-primary' target='_blank'>live Demo</a>
+            <a href="https://github.com/AKASHPRADUM/No.3-Servay-Form.git" className='btn' target='_blank'>Github</a>
+            <a href="https://akashpradum.github.io/No.3-Servay-Form/" className='btn btn-primary' target='_blank'>live Demo</a>
           </div>
         </article>
         <article className='portfolio_item'>
           <div className="portfolio_item_image">
             <img src={IMG6} alt="img 1" />
           </div>
-          <h3>This is Portfolio item title</h3>
+          <h3>Login Page</h3>
           <div className="portfolio_item_link">
-            <a href="https://github.com/AKASHPRADUM" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com/AKASHPRADUM" className='btn btn-primary' target='_blank'>live Demo</a>
+            <a href="https://github.com/AKASHPRADUM/No.2-Login-page.git" className='btn' target='_blank'>Github</a>
+            <a href="https://akashpradum.github.io/No.2-Login-page/" className='btn btn-primary' target='_blank'>live Demo</a>
           </div>
         </article>
       </div>
