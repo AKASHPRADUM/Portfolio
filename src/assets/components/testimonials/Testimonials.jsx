@@ -15,23 +15,23 @@ import "swiper/css/pagination";
 const data = [
   {
     img: AVATAR1,
-    name: 'Pritty Girl',
-    review: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quod error minus sit a inventore repudiandae ea facilis nam placeat voluptates dolorum consequuntur, suscipit nesciunt mollitia illo aut repellat.Dolores excepturi est veritatis voluptas quod inventore similique laudantium saepe, repellat dolor.'
+    name: 'Naruto Uzumaki',
+    review: 'Considers problems as a challenge and enjoy finding creative yet appropriate solutions. Obito is able to work out his own solutions, but also works well with a group to solve porblems'
   },
   {
     img: AVATAR2,
     name: 'Rohit Singh',
-    review: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quod error minus sit a inventore repudiandae ea facilis nam placeat voluptates dolorum consequuntur, suscipit nesciunt mollitia illo aut repellat.Dolores excepturi est veritatis voluptas quod inventore similique laudantium saepe, repellat dolor.'
+    review: 'Considers problems as a challenge and enjoy finding creative yet appropriate solutions. Obito is able to work out his own solutions, but also works well with a group to solve porblems'
   },
   {
     img: AVATAR3,
     name: 'Atul Rai',
-    review: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quod error minus sit a inventore repudiandae ea facilis nam placeat voluptates dolorum consequuntur, suscipit nesciunt mollitia illo aut repellat.Dolores excepturi est veritatis voluptas quod inventore similique laudantium saepe, repellat dolor.'
+    review: 'What a Design and Effects...well created ,all components are nicely made and is fully responsive in different size devices. Gradient Color combinaton is also good.A project well made by a new developer. '
   },
   {
     img: AVATAR4,
     name: 'Salini Singh',
-    review: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quod error minus sit a inventore repudiandae ea facilis nam placeat voluptates dolorum consequuntur, suscipit nesciunt mollitia illo aut repellat.Dolores excepturi est veritatis voluptas quod inventore similique laudantium saepe, repellat dolor.'
+    review: 'Considers problems as a challenge and enjoy finding creative yet appropriate solutions. Obito is able to work out his own solutions, but also works well with a group to solve porblems'
   },
 ]
 
@@ -39,14 +39,14 @@ const Testimonials = () => {
   const pagination = {
     clickable: true,
     renderBullet: function (index, className) {
-      return '<span class="' + className + '">'  + "</span>";
+      return '<span class="' + className + '"></span>';
     },
   };
   return (
     <section id='testimonials'>
       <h5>Review from Clints</h5>
       <h2>Testimonials</h2>
-      <Swiper pagination={pagination} modules={[Pagination]}  spaceBetween={40} slidesPerView={1} className="container testimonials_container mySwiper">
+      <Swiper pagination={pagination} modules={[Pagination]} spaceBetween={40} slidesPerView={1} className="container testimonials_container mySwiper">
         {
           data.map(({ img, name, review }, count) => {
             return (

@@ -8,6 +8,8 @@
     border-radius: 0 0 2rem 2rem;
     border: 1px solid var(--color-primary);
     height: fit-content;
+    width: 30%;
+    min-width: 15rem;
     transition: var(--transition);
 }
 
@@ -48,7 +50,9 @@
 .services_list p {
     font-size: 0.9rem;
 }
-
+.services_list li p{
+    line-height: 1.7rem;
+}
 /* ########################## Media Query Mediam Device ######################### */
 @media screen and (max-width: 1024px) {
     .services_container {
@@ -63,6 +67,10 @@
 
     .service_2 {
         width: 45%;
+    }
+    .service_3{
+        margin: 0px auto;
+        min-width: 20rem;
     }
 }
 

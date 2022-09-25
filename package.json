@@ -1,15 +1,19 @@
 {
   "name": "portfolio",
-  "homepage": "http://pradumkumardubey.com",
+  "homepage": "http://pradumdubey.in",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
     "emailjs-com": "^3.2.0",
+    "google-map-react": "^2.2.0",
     "react": "^18.2.0",
+    "react-3d-cube": "^1.0.5",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-scripts": "5.0.1",
+    "react-simple-typewriter": "^3.0.1",
+    "react-spinners": "^0.13.4",
     "swiper": "^8.3.2"
   },
   "scripts": {

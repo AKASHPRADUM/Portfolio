@@ -1,6 +1,7 @@
 import React from 'react'
 import './experience.css'
 import { BsFillPatchCheckFill } from "react-icons/bs";
+import LogoCube from '../Cube/Cube.js'
 const Experience = () => {
   return (
     <section id='experience'>
@@ -97,6 +98,12 @@ const Experience = () => {
             </article>
 
           </div>
+        </div>
+      </div>
+      <div className="scene">
+        <h5 className='spinText'>Spin Me</h5>
+        <div className="cubeArea">
+          < LogoCube />
         </div>
       </div>
     </section>

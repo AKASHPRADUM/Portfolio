@@ -50,6 +50,16 @@
 .experience_detail_icon {
     color: var(--color-primary);
 }
+cubeArea{
+    margin: auto;
+}
+
+.spinText {
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+    color: var(--color-light)
+}
+
 
 /* ########################## Media Query medium Device ######################### */
 @media screen and (max-width: 1024px) {
@@ -62,6 +72,9 @@
     }
     .experience_backend {
         width: 75%;
+    }
+    .scene{
+        display: none !important;
     }
 }
 
@@ -76,5 +89,8 @@
     }
     .experience_backend {
         width: 90%;
+    }
+    .scene{
+        display: none !important;
     }
 }

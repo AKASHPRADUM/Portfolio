@@ -10,12 +10,21 @@
     text-decoration: none;
 }
 :root{
-    --color-bg: #1f1f38;
+      --color-bg: rgb(31, 31, 56);
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 225, 0.7);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.884);
+    --color-focus: red;
+    /* --color-light: rgba(255, 255, 225, 0.6); */
+    /* --color-bg: linear-gradient(#24C6DC, #514A9D);
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 225, 0.4);
     --color-white: #fff;
-    --color-light: rgba(255, 255, 225, 0.6);
+    --color-light: rgba(255, 255, 225, 0.6); */
+
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -32,10 +41,10 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    /* background: var(--color-bg); */
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../bg-texture.png);
+    background-image: url(../bg-texture.png), linear-gradient(to right, rgb(34, 34, 80), rgb(21, 21, 100)) ;
 }
 .container{
     width: var(--container-width-lg);
@@ -49,6 +58,7 @@ h1{
 }
 section{
     padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 section > h2,
 section > h5{
@@ -71,6 +81,7 @@ a:hover{
 }
 .btn{
     width: max-content;
+    min-width: 7rem;
     color: var(--color-primary);
     display: inline-block;
     padding: 0.75rem 1.2rem;
@@ -92,6 +103,10 @@ img{
     display: block;
     width: 100%;
     object-fit: cover;
+}
+.focus{
+    color: red;
+    font-weight: bold;
 }
 
 /* ########################## Media Query Mediam Device ######################### */

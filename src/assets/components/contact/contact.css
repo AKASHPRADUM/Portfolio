@@ -17,7 +17,7 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
-    width: 100%;
+    width: 115%;
 }
 .contact_option:hover{
     background: transparent;
@@ -64,5 +64,6 @@ input, textarea{
     }
     .contact_option{
         align-items: center;
+        width: 100%;
     }
 }

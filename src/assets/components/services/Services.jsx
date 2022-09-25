@@ -12,23 +12,27 @@ const Services = () => {
           <ul className="services_list">
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>Content strategy</p>
             </li>
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>User flow charts, diagrams</p>
             </li>
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>Wireframes</p>
             </li>
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>Brand and design system development</p>
             </li>
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>Design technology consulting</p>
+            </li>
+            <li>
+              <BsCheck className='service_check' />
+              <p>User stories</p>
             </li>
           </ul>
         </article>
@@ -37,27 +41,27 @@ const Services = () => {
           <ul className="services_list">
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>Full Stack Web Development using MERN Stack</p>
             </li>
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>Ecommerce Application </p>
             </li>
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>Custom Web Application </p>
             </li>
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>Content Management Systems </p>
             </li>
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>Quality Assurance & Testing</p>
             </li>
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>Web Support and Maintenance</p>
             </li>
           </ul>
         </article>
@@ -66,23 +70,23 @@ const Services = () => {
           <ul className="services_list">
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>Update Blogs</p>
             </li>
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>Website Pages</p>
             </li>
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>Presentation/ case studies </p>
             </li>
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>Social media Graphics</p>
             </li>
             <li>
               <BsCheck className='service_check' />
-              <p>Lorem ipsum dolor sit amet consectetur </p>
+              <p>Website short content</p>
             </li>
           </ul>
         </article>
