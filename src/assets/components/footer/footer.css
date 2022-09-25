@@ -64,12 +64,15 @@ footer_copyright {
     justify-content: center;
     align-items: center;
     font-family: 'Roboto Slab', serif;
+    margin: 2rem 0rem;
 }
 .mylogo_bg {
     font-size: 8rem;
+    line-height: 4rem;
 }
 
 .mylogo_Front{
+    color: var(--color-white);
     font-size: 1.25rem;
     height: 2rem;
     margin: 0rem 0rem 0rem -15rem;
@@ -77,6 +80,9 @@ footer_copyright {
     background: transparent;
     /* background-color: var(--color-primary); */
     
+}
+.mylogo_Front:hover{
+    color: black;
 }
 
 /* ########################## Media Query Small Device ######################### */

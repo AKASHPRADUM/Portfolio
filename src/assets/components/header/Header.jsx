@@ -37,9 +37,6 @@ const Header = () => {
         <div className="download"><RES /></div>
         <HeaderSocial />
         
-        {/* <div className="myImg">
-          <img src={ME} alt="me" />
-        </div> */}
         <div className="myImg1">
           <img src={ME} alt="me" />
         </div>

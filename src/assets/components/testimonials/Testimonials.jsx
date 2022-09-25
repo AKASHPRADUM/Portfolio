@@ -14,23 +14,25 @@ import "swiper/css/pagination";
 
 const data = [
   {
-    img: AVATAR1,
-    name: 'Naruto Uzumaki',
+    img: AVATAR3,
+    name: 'Monkey.D.Luffy',
     review: 'Considers problems as a challenge and enjoy finding creative yet appropriate solutions. Obito is able to work out his own solutions, but also works well with a group to solve porblems'
   },
   {
     img: AVATAR2,
-    name: 'Rohit Singh',
+    
+    name: 'Naruto Uzumaki',
+    review: 'What a Design and Effects...well created ,all components are nicely made and is fully responsive in different size devices. Gradient Color combinaton is also good.A project well made by a new developer. '
+  },
+    
+  {
+    img: AVATAR1,
+    name: 'Hinata Hyuga',
     review: 'Considers problems as a challenge and enjoy finding creative yet appropriate solutions. Obito is able to work out his own solutions, but also works well with a group to solve porblems'
   },
   {
-    img: AVATAR3,
-    name: 'Atul Rai',
-    review: 'What a Design and Effects...well created ,all components are nicely made and is fully responsive in different size devices. Gradient Color combinaton is also good.A project well made by a new developer. '
-  },
-  {
     img: AVATAR4,
-    name: 'Salini Singh',
+    name: 'Nezuko Kamado',
     review: 'Considers problems as a challenge and enjoy finding creative yet appropriate solutions. Obito is able to work out his own solutions, but also works well with a group to solve porblems'
   },
 ]
