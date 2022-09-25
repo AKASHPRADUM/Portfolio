@@ -2,9 +2,7 @@ import React from 'react'
 import './header.css'
 import RES from './RES'
 import HeaderSocial from './HeaderSocial'
-// import ME from '../../me.png'
-// import ME from '../../me-about3.jpeg'
-import ME from '../../me-about4.jpg'
+import ME from '../../me.jpg'
 import { Typewriter } from 'react-simple-typewriter'
 
 

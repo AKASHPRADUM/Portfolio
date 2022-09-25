@@ -44,7 +44,7 @@ const About = () => {
             <div className="dataTable">
               <div className="row1">
                 <span className="dataQuestion">Birthday : </span><span className="dataAnswer">&nbsp;11 May 2000</span> <br /> 
-                <span className="dataQuestion">Website : </span><span className="dataAnswer">&nbsp;www.gooogle.com</span> <br /> 
+                <span className="dataQuestion">Website : </span><span className="dataAnswer">&nbsp;https://pradumdubey.in</span> <br /> 
                 <span className="dataQuestion">Degree : </span><span className="dataAnswer">&nbsp;Compuer Science</span> <br /> 
                 <span className="dataQuestion">City : </span><span className="dataAnswer">&nbsp;Pune</span> <br />  
               </div>

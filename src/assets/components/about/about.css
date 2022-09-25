@@ -84,7 +84,6 @@
 }
 
 .dataQuestion {
-    /* border-bottom: 1px solid var(--color-primary); */
     border-bottom: 1px solid var(--color-focus);
     font-weight: bold;
 }
@@ -95,6 +94,7 @@
 
 .dataAnswer {
     color: var(--color-light);
+    line-height: 2rem;
 }
 
 /* ########################## Media Query Small Device ######################### */
