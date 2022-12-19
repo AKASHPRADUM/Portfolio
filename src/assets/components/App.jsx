@@ -3,6 +3,7 @@ import React from 'react'
 import About from './about/About'
 import Contact from './contact/Contact'
 import Header from './header/Header'
+import ScrollButton from './scroll/Scroll'
 import Nav from './nav/Nav'
 import Experience from './experience/Experience'
 import Services from './services/Services'
@@ -38,6 +39,7 @@ const App = () => {
           :
           <>
             <Header />
+            <ScrollButton />
             <Nav />
             <About />
             <Experience />

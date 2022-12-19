@@ -13,42 +13,42 @@ const portfolioData = [
     imgalt: "Img 1",
     name: "Banking-System",
     link1: "https://github.com/AKASHPRADUM/Banking-System.git",
-    link2: "https://obscure-shelf-74439.herokuapp.com"
+    link2: "https://banking-system-8u69.onrender.com"
   },
   {
     imgsrc: IMG2,
     imgalt: "Img 2",
     name: "House Sell Page",
     link1: "https://github.com/AKASHPRADUM/No.1-pratice-House-Sell-Page.git",
-    link2: "https://akashpradum.github.io/No.1-pratice-House-Sell-Page/"
+    link2: "https://house.pradumdubey.in"
   },
   {
     imgsrc: IMG3,
     imgalt: "Img 3",
     name: "Analog and Digital Clock",
     link1: "https://github.com/AKASHPRADUM/Analog-and-Digital-Clock.git",
-    link2: "https://akashpradum.github.io/Analog-and-Digital-Clock/"
+    link2: "https://clock.pradumdubey.in"
   },
   {
     imgsrc: IMG4,
     imgalt: "Img 4",
     name: "Drum Kit",
     link1: "https://github.com/AKASHPRADUM/Drum-Kit.git",
-    link2: "https://akashpradum.github.io/Drum-Kit/"
+    link2: "http://drum-kit.pradumdubey.in"
   },
   {
     imgsrc: IMG5,
     imgalt: "Img 5",
     name: "Survey Form",
     link1: "https://github.com/AKASHPRADUM/No.3-Servay-Form.git",
-    link2: "https://akashpradum.github.io/No.3-Servay-Form/"
+    link2: "hhttps://servay.pradumdubey.in"
   },
   {
     imgsrc: IMG6,
     imgalt: "Img 6",
     name: "Personal Profile",
-    link1: "https://github.com/AKASHPRADUM/Personal-Profile.git",
-    link2: "https://akashpradum.github.io/Personal-Profile/"
+    link1: "https://github.com/AKASHPRADUM/Style-Confrance.git",
+    link2: "https://confrence.pradumdubey.in"
   }
 ];
 const Portfolio = () => {

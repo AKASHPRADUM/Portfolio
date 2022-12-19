@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
 
 header {
+    /* height: 100vh; */
     height: 100vh;
     overflow: hidden;
 }
@@ -157,7 +158,8 @@ header {
 /* ########################## Big Media Query medium Device ######################### */
 @media screen and (max-width: 1250px) {
     header {
-        height: 90vh;
+        height: max-content;
+        /* height: 90vh; */
     }
 
     .scrolldown {
@@ -204,7 +206,8 @@ header {
 /* ########################## Media Query medium Device ######################### */
 @media screen and (max-width: 1024px) {
     header {
-        height: 80vh;
+        height: max-content;
+        /* height: 80vh; */
     }
 
     .scrolldown {
@@ -221,7 +224,8 @@ header {
 /* ########################## Media Query Small Device ######################### */
 @media screen and (max-width: 700px) {
     header {
-        height: 80vh;
+        height: max-content;
+        /* height: 80vh; */
     }
 
     .header-socials,
@@ -253,7 +257,7 @@ header {
         font-size: 1.2rem;
     }
     .name {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 }
 @media screen and (max-width: 550px) {
@@ -267,7 +271,7 @@ header {
         font-size: 1.3rem;
     }
     .autoType {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 }
 @media screen and (max-width: 450px) {
@@ -275,13 +279,16 @@ header {
         font-size: 1.2rem;
     }
     .name {
-        font-size: 2.5rem;
+        font-size: 2rem;
         display: block;
     }
 }
 /* ########################## Media Query Small Device ######################### */
 @media screen and (max-width: 400px) {
     .autoType {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
+    }
+    .res {
+        width: 18rem;
     }
 }

@@ -46,7 +46,7 @@ const Testimonials = () => {
   };
   return (
     <section id='testimonials'>
-      <h5>Review from Clints</h5>
+      <h5>Review from Clients</h5>
       <h2>Testimonials</h2>
       <Swiper pagination={pagination} modules={[Pagination]} spaceBetween={40} slidesPerView={1} className="container testimonials_container mySwiper">
         {

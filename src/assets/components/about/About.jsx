@@ -24,7 +24,7 @@ const About = () => {
             </div>
             <div className="about_card">
               <FiUsers className='about_icon' />
-              <h5>Clints</h5>
+              <h5>Clients</h5>
               <small>30+ WorldWide</small>
             </div>
             <div className="about_card">
@@ -33,7 +33,7 @@ const About = () => {
               <small>10+ Completed</small>
             </div>
           </div>
-          <p>I'm a <span className='focus'>Full-Stack Developer</span> with a passion for UX/UI development. I can code in <span className='focus'>HTML/CSS</span>, <span className='focus'>JavaScript</span>, and <span className='focus'>React.js</span>. I'm also a fresher and eager to learn. I'm looking for opportunity Where I can make use of my abilities and skills to grow and learn along with my Peers. </p>
+          <p>I'm a <span className='focus'>Full-Stack Developer</span> with a passion for UX/UI development. I can code in <span className='focus'>HTML/CSS</span>, <span className='focus'>JavaScript</span>, and <span className='focus'>React.js</span>. I'm also a fresher and eager to learn. I'm looking for opportunities Where I can make use of my abilities and skills to grow and learn along with my Peers. </p>
           
         </div>
         
@@ -44,7 +44,7 @@ const About = () => {
               <div className="row1">
                 <span className="dataQuestion">Birthday : </span><span className="dataAnswer">&nbsp;11 May 2000</span> <br /> 
                 <span className="dataQuestion">Website : </span><span className="dataAnswer">&nbsp;https://pradumdubey.in</span> <br /> 
-                <span className="dataQuestion">Degree : </span><span className="dataAnswer">&nbsp;Compuer Science</span> <br /> 
+                <span className="dataQuestion">Degree : </span><span className="dataAnswer">&nbsp;Computer Science</span> <br /> 
                 <span className="dataQuestion">City : </span><span className="dataAnswer">&nbsp;Pune</span> <br />  
               </div>
               <div className="row2">
